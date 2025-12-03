@@ -53,6 +53,8 @@ int main() {
 		sum += getJoltageBig(line, pow10Array);
 	}
 
+	delete [] pow10Array;
+
 	cout << sum << endl;
 
 	return 0;
